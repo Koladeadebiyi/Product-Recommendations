@@ -6,29 +6,31 @@ This project is a simple Flask-based customer recommendation system that segment
 
 ## 📌 Project Structure
 
-Customer_Recommendation_App/
-│
-├── app.py # Flask application
+Project Folder Includes:
 
-├── requirements.txt # Dependencies file
+app.py — Flask application Python script.
 
-├── model/ # Contains data files
-│ ├── customer_features.csv
-│ ├── top_products_per_cluster.csv
-│ ├── purchase_history.csv
-│
+requirements.txt — List of Python dependencies.
 
-├── templates/ # HTML templates
-│ └── index.html
-│
+templates/ — Folder containing index.html (the frontend template).
 
-├── venv/ # (Optional) Virtual environment
+model/ — Folder with:
 
-├── README.md # This file
+customer_features.csv
+
+top_products_per_cluster.csv
+
+purchase_history.csv (if used)
+
+static/ — (Optional) CSS or image files if you styled the HTML.
+
+## 📌 Requirements.txt
+Flask==2.3.2
+pandas==1.5.3
+numpy==1.23.5
+scikit-learn==1.2.2
 
 
-
----
 
 ## ✅ Submission Checklist
 
