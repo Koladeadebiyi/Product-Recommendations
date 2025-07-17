@@ -47,7 +47,7 @@ scikit-learn==1.2.2
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/Customer_Recommendation_App.git
+   git clone https://github.com/koladeadebiyi/Customer_Recommendation_App.git
    cd Customer_Recommendation_App
 2. Create a virtula environment
 python -m venv venv
